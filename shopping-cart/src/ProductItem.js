@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ProductItem({product,addToCart}){
+function ProductItem({product, addToCart}){
     return (
         <div>
             <h3>{product.name}</h3>
