@@ -10,7 +10,7 @@ function ProdictList({addToCart}){
 
     return (
         <div>
-            <h2>Products List</h2>
+            <h2>This is Products List</h2>
             {products.map((product)=>(
                 <ProductItem key={product.id} product={product} addToCart={addToCart}/>
             ))}
